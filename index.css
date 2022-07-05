@@ -1,0 +1,30 @@
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 500px;
+    width: 100%;
+    background-color: aqua;
+    color: crimson;
+}
+
+.sub-title,
+.title {
+    padding: 8px 0;
+    text-transform: uppercase;
+}
+
+.sub-title,
+.text {
+    font-size: 30px;
+}
+
+.title {
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.text {
+    padding: 16px 0;
+}
